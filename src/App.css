@@ -1,0 +1,31 @@
+/* simple CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Simple background */
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  color: #333;
+  text-align: center;
+}
+
+.app-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.app-container p {
+  font-size: 1.2rem;
+}
