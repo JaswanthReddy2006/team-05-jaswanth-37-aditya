@@ -15,8 +15,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* Simple background */
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  /* Updated background gradient */
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
   color: #333;
   text-align: center;
 }
